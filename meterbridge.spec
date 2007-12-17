@@ -11,7 +11,6 @@ Source: 	%{name}-%{version}.tar.bz2
 #Patch0: %{name}-0.9.0-jack-0.41.patch
 License: 	GPL
 Group: 		Sound
-BuildRoot: 	%{_tmppath}/%{name}-root
 BuildRequires:	jackit-devel SDL_image-devel
 
 %description
