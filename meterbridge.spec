@@ -1,6 +1,6 @@
 %define name	meterbridge
 %define version 0.9.2
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary:	Software meterbridge for Jack
 Name:		%name
