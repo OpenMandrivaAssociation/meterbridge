@@ -40,7 +40,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc AUTHORS ChangeLog COPYING INSTALL
+%doc AUTHORS ChangeLog INSTALL
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 
