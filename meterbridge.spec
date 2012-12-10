@@ -44,3 +44,41 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.9.2-5mdv2010.0
++ Revision: 430021
+- rebuild
+
+* Sat Sep 06 2008 Adam Williamson <awilliamson@mandriva.org> 0.9.2-4mdv2009.0
++ Revision: 281766
+- don't package COPYING
+- add build.patch (from Debian, fix build)
+- disable underlinking protection (breaks build and not needed here)
+- clean spec
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - kill re-definition of %%buildroot on Pixel's request
+    - use %%mkrel
+    - import meterbridge
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Sat Jul 17 2004 Austin Acton <austin@mandrake.org> 0.9.2-2mdk
+- fix buildrequires
+- configure 2.5
+- use opt flags
+
+* Mon Jun 9 2003 Austin Acton <aacton@yorku.ca> 0.9.2-1mdk
+- 0.9.2
+- fix buildrequires (SDL_image)
+
+* Fri Apr 25 2003 Austin Acton <aacton@yorku.ca> 0.9.0-2mdk
+- buildrequires libSDL-devel
+
+* Sat Feb 8 2003 Austin Acton <aacton@yorku.ca> 0.9.0-1mdk
+- initial package
