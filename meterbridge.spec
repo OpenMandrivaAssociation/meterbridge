@@ -23,7 +23,7 @@ and user-editable pixmaps.
 
 %prep
 %setup -q
-%patch0 -p1 -b
+%patch0 -p1 -b .gcc10
 %build
 %configure2_5x
 %make CC="gcc %{optflags}"
