@@ -9,9 +9,7 @@ Version:	0.9.2
 Release:	1
 URL: 		http://plugin.org.uk/meterbridge/
 Source0: 	http://plugin.org.uk/meterbridge/meterbridge-%{version}.tar.gz
-# From Debian: fix build by removing duplicate declaration of buf_rect
-# AdamW 2008/09
-Patch0:		meterbridge-0.9.2-build.patch
+Patch0:        meterbridge-gcc10.patch
 License: 	GPL+
 Group: 		Sound
 BuildRoot: 	%{_tmppath}/%{name}-root
@@ -25,8 +23,7 @@ and user-editable pixmaps.
 
 %prep
 %setup -q
-%patch0 -p1 -b .build
-
+%patch0 -p1 -b
 %build
 %configure2_5x
 %make CC="gcc %{optflags}"
