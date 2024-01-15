@@ -26,7 +26,7 @@ and user-editable pixmaps.
 %patch0 -p1 -b .gcc10
 %build
 %configure2_5x
-%make CC="gcc %{optflags}"
+%make
 
 %install
 rm -rf %{buildroot}
