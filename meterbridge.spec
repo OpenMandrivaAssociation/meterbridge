@@ -6,9 +6,9 @@
 Summary:	Software meterbridge for Jack
 Name:		meterbridge
 Version:	0.9.2
-Release:	%{mkrel 5}
+Release:	1
 URL: 		http://plugin.org.uk/meterbridge/
-Source0: 	%{name}-%{version}.tar.bz2
+Source0: 	http://plugin.org.uk/meterbridge/meterbridge-%{version}.tar.gz
 # From Debian: fix build by removing duplicate declaration of buf_rect
 # AdamW 2008/09
 Patch0:		meterbridge-0.9.2-build.patch
