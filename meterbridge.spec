@@ -7,7 +7,7 @@ Summary:	Software meterbridge for Jack
 Name:		meterbridge
 Version:	0.9.2
 Release:	1
-URL: 		http://plugin.org.uk/meterbridge/
+URL: 		https://plugin.org.uk/meterbridge/
 Source0: 	http://plugin.org.uk/meterbridge/meterbridge-%{version}.tar.gz
 Patch0:        meterbridge-gcc10.patch
 License: 	GPL+
