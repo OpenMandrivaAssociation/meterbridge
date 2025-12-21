@@ -13,6 +13,11 @@ Patch0:        meterbridge-gcc10.patch
 License: 	GPL+
 Group: 		Sound
 BuildRoot: 	%{_tmppath}/%{name}-root
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	jackit-devel
 BuildRequires:	SDL_image-devel
 
